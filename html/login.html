@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarefa faculdade</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+</head>
+
+<body>
+
+    <div class="materialContainer">
+        <div class="box">
+            <img src="../imgs/transferir.png" width="250" height="150">
+            <div class="title">Login usuario</div>
+
+            <form action="http://localhost:3000/auth/login" method="post" id="user">
+                <p><input placeholder="Email: " type="text" id="POST_email" name="email" required></p>
+                <p><input placeholder="Senha: " type="text" id="POST_senha" name="senha" required></p>
+
+                <div class="button login">
+                    <button type="submit" form="user" id="buttonEnviar">Entrar </button>
+                </div>
+
+            </form>
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="../main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+body {
+  background-image: url(https://64.media.tumblr.com/7fbf54c0aa82204968bf579f4ccf3610/d01f3aba991f10f2-c3/s1280x1920/19a656ea4817f8e61dc0eb05c24024c65845d3da.gifv);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.materialContainer {
+  width: 100%;
+  max-width: 580px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.materialContainer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.materialContainer .box {
+  position: relative;
+  width: 390px;
+  top: 100px;
+  height: 550px;
+  float: left;
+  padding: 5px 5px 35px 15px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.materialContainer .box .title {
+  width: 100%;
+  float: left;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ED2553;
+  position: relative;
+  text-align: center;
+}
+.materialContainer .box #user {
+  width: 380px;
+  position: relative;
+  top: 15px;
+  left: 5px;
+  transition: 0.5s;
+}
+.materialContainer .box #user input {
+  width: 95%;
+  padding: 10px 5px;
+  margin: 5px 0;
+  border: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.materialContainer .box #user select {
+  padding: 7px 40px 7px 12px;
+  width: 95%;
+  border: 1px solid #E8EAED;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+.materialContainer .box .button {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  z-index: 2;
+}
+.materialContainer .box .button.login {
+  width: 60%;
+  left: 20%;
+}
+.materialContainer .box .button.login button {
+  width: 100%;
+  line-height: 64px;
+  left: 0%;
+  background-color: transparent;
+  border: 3px solid rgba(0, 0, 0, 0.35);
+  font-weight: 900;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.55);
+}
+.materialContainer .box .button.login button:hover {
+  color: #ED2553;
+  border-color: #ED2553;
+}
+.materialContainer .box .button button {
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=style.css.map */
