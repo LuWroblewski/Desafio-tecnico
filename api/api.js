@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
 //conexão
 const username = process.env.DB_USER;
 const password = process.env.DB_PASS;
-const cluster = "cluster0.1ylmc4y";
+const cluster = " ";
 const dbname = "user";
 
 mongoose.connect(
