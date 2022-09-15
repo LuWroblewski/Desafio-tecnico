@@ -2,8 +2,8 @@
 
 ### Como usar❓
 
-Abra o console do projeto e coloque 👉 **npm init -y**, 
-Após a instação ainda no console coloque 👉 **npm install bcrypt dotenv express jsonwebtoken mongoose**,
+Abra o console do projeto e coloque 👉 **npm init -y**, <br />
+Após a instação ainda no console coloque 👉 **npm install bcrypt dotenv express jsonwebtoken mongoose**, <br />
 quando tudo estiver instalado coloque 👉 **npm start** e estará com o servidor ligado.
 
 O sistema de registro e login pode ser acessado através do **menu.html** aonde é o inicio do projeto e assim tendo acesso a ambas as telas(registro e login)
